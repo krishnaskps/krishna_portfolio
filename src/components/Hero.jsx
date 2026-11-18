@@ -1,16 +1,16 @@
 import React from 'react';
-import { 
-  FileDown, 
-  ArrowRight, 
-  Github, 
-  Globe, 
-  Mail, 
-  MapPin, 
-  Briefcase, 
-  CheckCircle2, 
-  Code2, 
-  Layers, 
-  Cloud 
+import {
+  FileDown,
+  ArrowRight,
+  Github,
+  Globe,
+  Mail,
+  MapPin,
+  Briefcase,
+  CheckCircle2,
+  Code2,
+  Layers,
+  Cloud
 } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 import profilePhoto from '../assets/images/krishna_photo.jpg';
@@ -47,7 +47,7 @@ export default function Hero() {
       <div className="absolute bottom-10 right-0 w-[500px] h-[500px] bg-violet-600/10 rounded-full blur-[130px] pointer-events-none -z-10" />
 
       {/* Subtle Grid Pattern */}
-      <div 
+      <div
         className="absolute inset-0 opacity-[0.03] pointer-events-none -z-10"
         style={{
           backgroundImage: `linear-gradient(#fff 1px, transparent 1px), linear-gradient(to right, #fff 1px, transparent 1px)`,
@@ -57,10 +57,10 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Column: Introductions, Headlines & CTAs */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-            
+
             {/* Status Pill */}
             <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-slate-900/80 border border-cyan-500/30 text-xs font-mono text-cyan-300 backdrop-blur-md shadow-sm">
               <span className="relative flex h-2 w-2">
@@ -120,7 +120,7 @@ export default function Hero() {
 
               <a
                 href={personal.resumeUrl}
-                download="Krishna_KP_Resume.docx"
+                download="Krishna_Resume.docx"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl font-semibold text-white bg-slate-900/90 hover:bg-slate-800 border border-slate-700 hover:border-slate-600 shadow-md hover:-translate-y-0.5 transition-all"
               >
                 <FileDown className="w-4 h-4 text-cyan-400" />
@@ -167,10 +167,10 @@ export default function Hero() {
           {/* Right Column: Professional Photograph & Floating Highlights */}
           <div className="lg:col-span-5 flex justify-center items-center relative">
             <div className="relative w-72 sm:w-80 md:w-96 aspect-square">
-              
+
               {/* Ambient Glow Circles behind photo */}
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-cyan-500/20 via-blue-500/20 to-violet-500/20 filter blur-xl -z-10 animate-pulse" />
-              
+
               {/* Photo Frame Container */}
               <div className="relative w-full h-full rounded-3xl overflow-hidden border-2 border-slate-700/80 bg-slate-900 shadow-2xl shadow-cyan-950/50 group">
                 <img
@@ -184,7 +184,7 @@ export default function Hero() {
                     }
                   }}
                 />
-                
+
                 {/* Subtle vignette overlay on bottom */}
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
 

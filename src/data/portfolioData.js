@@ -9,7 +9,7 @@ export const portfolioData = {
     workLocations: ["Bengaluru", "Ernakulam", "Gujarat", "Kozhikode"],
     github: "https://github.com/Krishna1-karthik",
     website: "https://krishna-portfolio-cfrp.vercel.app/",
-    resumeUrl: "/Krishna_KP_Resume.docx",
+    resumeUrl: "/Krishna_Resume.docx",
     photoUrl: "/krishna_photo.jpg",
     headline: "Senior Software Engineer specializing in .NET Core, Angular, Microservices & Cloud Architectures",
     shortBio: "Senior Software Engineer with 9+ years of expertise in architecting and delivering high-performance enterprise applications using .NET Core, Angular (16-19), and SQL Server. Proven success across Banking, Healthcare, Education, and Government domains with a track record of driving resilience, optimizing performance, and mentoring engineering teams.",
