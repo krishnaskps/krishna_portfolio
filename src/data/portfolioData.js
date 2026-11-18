@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Krishna K P",
     designation: "Senior Software Engineer",
     experienceYears: "9+",
-    email: "krishna048713@gmail.com",
+    email: "krishnaskps101@gmail.com",
     phone: "+919048937226",
     location: "Kannur, India",
     workLocations: ["Bengaluru", "Ernakulam", "Gujarat", "Kozhikode"],

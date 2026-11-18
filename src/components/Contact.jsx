@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Github, 
-  Globe, 
-  Send, 
-  CheckCircle, 
-  Copy, 
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Github,
+  Globe,
+  Send,
+  CheckCircle,
+  Copy,
   ExternalLink,
   MessageSquare,
   Sparkles
@@ -61,13 +61,13 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-20 relative bg-slate-900/40 border-t border-slate-900">
-      
+
       {/* Decorative Lights */}
       <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-80 h-80 bg-cyan-500/5 rounded-full blur-[140px] pointer-events-none -z-10" />
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-blue-600/5 rounded-full blur-[140px] pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-xs font-mono text-cyan-400 mb-3">
@@ -83,13 +83,13 @@ export default function Contact() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          
+
           {/* Left Column: Direct Contact Info & Channels */}
           <div className="lg:col-span-5 space-y-6">
-            
+
             <div className="p-6 sm:p-8 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-6 shadow-xl">
               <h3 className="text-xl font-bold text-white">Direct Channels</h3>
-              
+
               {/* Email item */}
               <div className="flex items-start gap-4 p-4 rounded-xl bg-slate-950/60 border border-slate-800/80">
                 <div className="p-2.5 rounded-lg bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 shrink-0">
@@ -266,7 +266,7 @@ export default function Contact() {
                     <span>Send Message</span>
                   </button>
                   <p className="text-[11px] text-center text-slate-500 mt-2 font-mono">
-                    Direct communication dispatch to krishna048713@gmail.com
+                    Direct communication dispatch to krishnaskps101@gmail.com
                   </p>
                 </div>
               </form>
@@ -284,7 +284,7 @@ export default function Contact() {
             <div className="w-12 h-12 rounded-full bg-cyan-950 border border-cyan-500/40 text-cyan-400 flex items-center justify-center mb-4">
               <CheckCircle className="w-6 h-6" />
             </div>
-            
+
             <h4 className="text-lg font-bold text-white mb-2">Message Prepared!</h4>
             <p className="text-xs text-slate-300 leading-relaxed mb-4">
               Your message has been formatted and opened in your email client to send to <strong className="text-cyan-400">{personal.email}</strong>.
