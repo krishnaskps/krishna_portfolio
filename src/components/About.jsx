@@ -1,17 +1,17 @@
 import React from 'react';
-import { 
-  Award, 
-  GraduationCap, 
-  Languages, 
-  CheckCircle, 
-  Briefcase, 
-  ShieldCheck, 
-  Cpu, 
-  Server, 
-  Building, 
-  HeartPulse, 
-  Landmark, 
-  BookOpen 
+import {
+  Award,
+  GraduationCap,
+  Languages,
+  CheckCircle,
+  Briefcase,
+  ShieldCheck,
+  Cpu,
+  Server,
+  Building,
+  HeartPulse,
+  Landmark,
+  BookOpen
 } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 
@@ -24,11 +24,11 @@ export default function About() {
     Building2: Building,
     GraduationCap: BookOpen
   };
-
+  /***/
   return (
     <section id="about" className="py-20 relative bg-slate-950/60 border-t border-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-xs font-mono text-cyan-400 mb-3">
@@ -64,7 +64,7 @@ export default function About() {
 
         {/* Two-Column Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          
+
           {/* Left Column: Narrative & Engineering Approach */}
           <div className="lg:col-span-7 space-y-8">
             <div className="space-y-4">
@@ -138,7 +138,7 @@ export default function About() {
 
           {/* Right Column: Education, Certifications & Credentials */}
           <div className="lg:col-span-5 space-y-6">
-            
+
             {/* Education Card */}
             <div className="p-6 rounded-2xl bg-slate-900/70 border border-slate-800">
               <div className="flex items-center gap-2.5 mb-4">
