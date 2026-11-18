@@ -8,7 +8,7 @@ export const portfolioData = {
     location: "Kannur, India",
     workLocations: ["Bengaluru", "Ernakulam", "Gujarat", "Kozhikode"],
     github: "https://github.com/Krishna1-karthik",
-    website: "https://krishna1-karthik.github.io/Personal-websitess/",
+    website: "https://krishna-portfolio-cfrp.vercel.app/",
     resumeUrl: "/Krishna_KP_Resume.docx",
     photoUrl: "/krishna_photo.jpg",
     headline: "Senior Software Engineer specializing in .NET Core, Angular, Microservices & Cloud Architectures",
